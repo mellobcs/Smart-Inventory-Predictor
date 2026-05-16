@@ -21,7 +21,7 @@ A **Full-Stack Enterprise Integration Project** linking a Python Data Science An
 
 ## 🔥 The Problem
 
-Small-to-medium e-commerce platforms like **Thrift'd** lose significant revenue due to two major inventory issues:
+Small-to-medium e-commerce platforms lose significant revenue due to two major inventory issues:
 
 | Problem | Impact |
 |---------|--------|
