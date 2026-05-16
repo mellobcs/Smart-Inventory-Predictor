@@ -1,0 +1,9 @@
+c:\Users\dell\Desktop\projects\Smart Inventory system\java-backend\src\main\java\com\smartinventory\sip\controller\InventoryAlertController.java
+c:\Users\dell\Desktop\projects\Smart Inventory system\java-backend\src\main\java\com\smartinventory\sip\dto\AlertPayload.java
+c:\Users\dell\Desktop\projects\Smart Inventory system\java-backend\src\main\java\com\smartinventory\sip\dto\InventoryAlertDto.java
+c:\Users\dell\Desktop\projects\Smart Inventory system\java-backend\src\main\java\com\smartinventory\sip\entity\InventoryAlert.java
+c:\Users\dell\Desktop\projects\Smart Inventory system\java-backend\src\main\java\com\smartinventory\sip\exception\GlobalExceptionHandler.java
+c:\Users\dell\Desktop\projects\Smart Inventory system\java-backend\src\main\java\com\smartinventory\sip\exception\ResourceNotFoundException.java
+c:\Users\dell\Desktop\projects\Smart Inventory system\java-backend\src\main\java\com\smartinventory\sip\repository\InventoryAlertRepository.java
+c:\Users\dell\Desktop\projects\Smart Inventory system\java-backend\src\main\java\com\smartinventory\sip\service\InventoryAlertService.java
+c:\Users\dell\Desktop\projects\Smart Inventory system\java-backend\src\main\java\com\smartinventory\sip\SipApplication.java

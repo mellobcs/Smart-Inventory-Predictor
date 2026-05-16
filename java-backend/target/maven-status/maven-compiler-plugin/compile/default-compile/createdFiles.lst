@@ -1,0 +1,9 @@
+com\smartinventory\sip\controller\InventoryAlertController.class
+com\smartinventory\sip\dto\AlertPayload.class
+com\smartinventory\sip\SipApplication.class
+com\smartinventory\sip\entity\InventoryAlert.class
+com\smartinventory\sip\service\InventoryAlertService.class
+com\smartinventory\sip\dto\InventoryAlertDto.class
+com\smartinventory\sip\exception\GlobalExceptionHandler.class
+com\smartinventory\sip\exception\ResourceNotFoundException.class
+com\smartinventory\sip\repository\InventoryAlertRepository.class

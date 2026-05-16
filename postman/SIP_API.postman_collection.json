@@ -1,0 +1,138 @@
+{
+  "info": {
+    "name": "Smart Inventory Predictor (SIP) API",
+    "description": "Collection for testing the Smart Inventory Predictor REST API endpoints.",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "smart-inventory-predictor"
+  },
+  "item": [
+    {
+      "name": "POST Simulate Python Engine",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"source\": \"SmartInventoryPredictor-PythonEngine\",\n  \"generatedAt\": \"2026-05-16T10:30:00\",\n  \"periodDays\": 7,\n  \"totalItemsAnalyzed\": 6,\n  \"criticalAlerts\": 2,\n  \"warningAlerts\": 0,\n  \"alerts\": [\n    {\n      \"itemType\": \"Hoodie\",\n      \"itemName\": \"Oversized Hoodie - Black\",\n      \"currentStock\": 12,\n      \"salesVelocityVm\": 52.57,\n      \"runOutRateDays\": 0.2,\n      \"predicted7DayDemand\": 368.0,\n      \"revenueAtRisk\": 22074.73,\n      \"recommendedRestockQty\": 356,\n      \"alertLevel\": \"CRITICAL_RESTOCK_WARN\",\n      \"profitMarginPct\": 58.3,\n      \"generatedAt\": \"2026-05-16T10:30:00\"\n    },\n    {\n      \"itemType\": \"Jeans\",\n      \"itemName\": \"Slim Fit Jeans - Blue\",\n      \"currentStock\": 35,\n      \"salesVelocityVm\": 13.57,\n      \"runOutRateDays\": 2.6,\n      \"predicted7DayDemand\": 95.0,\n      \"revenueAtRisk\": 7598.05,\n      \"recommendedRestockQty\": 60,\n      \"alertLevel\": \"CRITICAL_RESTOCK_WARN\",\n      \"profitMarginPct\": 56.2,\n      \"generatedAt\": \"2026-05-16T10:30:00\"\n    },\n    {\n      \"itemType\": \"T-Shirt\",\n      \"itemName\": \"Cotton Crew Neck - White\",\n      \"currentStock\": 50,\n      \"salesVelocityVm\": 17.86,\n      \"runOutRateDays\": 2.8,\n      \"predicted7DayDemand\": 125.0,\n      \"revenueAtRisk\": 3123.75,\n      \"recommendedRestockQty\": 75,\n      \"alertLevel\": \"CRITICAL_RESTOCK_WARN\",\n      \"profitMarginPct\": 60.0,\n      \"generatedAt\": \"2026-05-16T10:30:00\"\n    },\n    {\n      \"itemType\": \"Accessories\",\n      \"itemName\": \"Baseball Cap - Navy\",\n      \"currentStock\": 60,\n      \"salesVelocityVm\": 25.0,\n      \"runOutRateDays\": 2.4,\n      \"predicted7DayDemand\": 175.0,\n      \"revenueAtRisk\": 3498.25,\n      \"recommendedRestockQty\": 115,\n      \"alertLevel\": \"CRITICAL_RESTOCK_WARN\",\n      \"profitMarginPct\": 60.0,\n      \"generatedAt\": \"2026-05-16T10:30:00\"\n    },\n    {\n      \"itemType\": \"Jacket\",\n      \"itemName\": \"Denim Jacket - Blue\",\n      \"currentStock\": 18,\n      \"salesVelocityVm\": 8.0,\n      \"runOutRateDays\": 2.3,\n      \"predicted7DayDemand\": 56.0,\n      \"revenueAtRisk\": 5039.44,\n      \"recommendedRestockQty\": 38,\n      \"alertLevel\": \"CRITICAL_RESTOCK_WARN\",\n      \"profitMarginPct\": 55.6,\n      \"generatedAt\": \"2026-05-16T10:30:00\"\n    },\n    {\n      \"itemType\": \"Sneakers\",\n      \"itemName\": \"Running Sneakers - Grey\",\n      \"currentStock\": 22,\n      \"salesVelocityVm\": 7.57,\n      \"runOutRateDays\": 2.9,\n      \"predicted7DayDemand\": 53.0,\n      \"revenueAtRisk\": 6889.47,\n      \"recommendedRestockQty\": 31,\n      \"alertLevel\": \"CRITICAL_RESTOCK_WARN\",\n      \"profitMarginPct\": 50.0,\n      \"generatedAt\": \"2026-05-16T10:30:00\"\n    }\n  ]\n}"
+        },
+        "url": {
+          "raw": "http://localhost:8080/api/inventory/alerts",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "8080",
+          "path": ["api", "inventory", "alerts"]
+        },
+        "description": "Simulates the Python Analytics Engine pushing a prediction payload to the Java backend."
+      },
+      "response": [
+        {
+          "name": "Success Response",
+          "status": "Created",
+          "code": 201,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{\n  \"status\": \"success\",\n  \"message\": \"Alerts processed successfully\",\n  \"persistedCount\": 6,\n  \"totalReceived\": 6\n}"
+        }
+      ]
+    },
+    {
+      "name": "GET All Alerts",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:8080/api/inventory/alerts",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "8080",
+          "path": ["api", "inventory", "alerts"]
+        },
+        "description": "Retrieve all persisted inventory alerts."
+      }
+    },
+    {
+      "name": "GET Alert by ID",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:8080/api/inventory/alerts/1",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "8080",
+          "path": ["api", "inventory", "alerts", "1"]
+        },
+        "description": "Retrieve a specific alert by its database ID."
+      }
+    },
+    {
+      "name": "GET Alerts by Level (Critical)",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:8080/api/inventory/alerts/level/CRITICAL_RESTOCK_WARN",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "8080",
+          "path": ["api", "inventory", "alerts", "level", "CRITICAL_RESTOCK_WARN"]
+        },
+        "description": "Filter alerts by severity level (CRITICAL_RESTOCK_WARN, OVERSTOCK_WARN, OK)."
+      }
+    },
+    {
+      "name": "GET Recent Alerts",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:8080/api/inventory/alerts/recent",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "8080",
+          "path": ["api", "inventory", "alerts", "recent"]
+        },
+        "description": "Get the 10 most recently created alerts."
+      }
+    },
+    {
+      "name": "GET Summary Statistics",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:8080/api/inventory/alerts/summary",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "8080",
+          "path": ["api", "inventory", "alerts", "summary"]
+        },
+        "description": "Get aggregate summary statistics for dashboard display."
+      }
+    },
+    {
+      "name": "DELETE Alert by ID",
+      "request": {
+        "method": "DELETE",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:8080/api/inventory/alerts/1",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "8080",
+          "path": ["api", "inventory", "alerts", "1"]
+        },
+        "description": "Delete an alert by its database ID."
+      }
+    }
+  ]
+}

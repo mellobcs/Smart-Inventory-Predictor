@@ -1,0 +1,35 @@
+transaction_id,date,item_type,item_name,units_sold,unit_price,cost_price,stock_on_hand,reorder_point
+T-001,2026-05-01,Hoodie,Oversized Hoodie - Black,45,59.99,25.00,12,30
+T-002,2026-05-01,T-Shirt,Cotton Crew Neck - White,30,24.99,10.00,50,20
+T-003,2026-05-01,Jeans,Slim Fit Jeans - Blue,20,79.99,35.00,35,25
+T-004,2026-05-02,Hoodie,Oversized Hoodie - Black,52,59.99,25.00,12,30
+T-005,2026-05-02,T-Shirt,Cotton Crew Neck - White,28,24.99,10.00,50,20
+T-006,2026-05-02,Sneakers,Running Sneakers - Grey,15,129.99,65.00,22,15
+T-007,2026-05-03,Hoodie,Oversized Hoodie - Black,48,59.99,25.00,12,30
+T-008,2026-05-03,Jeans,Slim Fit Jeans - Blue,22,79.99,35.00,35,25
+T-009,2026-05-03,T-Shirt,Graphic Tee - Red,35,29.99,12.00,40,25
+T-010,2026-05-04,Hoodie,Oversized Hoodie - Black,55,59.99,25.00,12,30
+T-011,2026-05-04,Sneakers,Running Sneakers - Grey,18,129.99,65.00,22,15
+T-012,2026-05-04,Jeans,Slim Fit Jeans - Blue,25,79.99,35.00,35,25
+T-013,2026-05-05,Hoodie,Oversized Hoodie - Black,60,59.99,25.00,12,30
+T-014,2026-05-05,T-Shirt,Cotton Crew Neck - White,32,24.99,10.00,50,20
+T-015,2026-05-05,T-Shirt,Graphic Tee - Red,38,29.99,12.00,40,25
+T-016,2026-05-06,Hoodie,Oversized Hoodie - Black,50,59.99,25.00,12,30
+T-017,2026-05-06,Jeans,Slim Fit Jeans - Blue,28,79.99,35.00,35,25
+T-018,2026-05-06,Sneakers,Running Sneakers - Grey,20,129.99,65.00,22,15
+T-019,2026-05-07,Hoodie,Oversized Hoodie - Black,58,59.99,25.00,12,30
+T-020,2026-05-07,T-Shirt,Cotton Crew Neck - White,35,24.99,10.00,50,20
+T-021,2026-05-01,Jacket,Denim Jacket - Blue,8,89.99,40.00,18,10
+T-022,2026-05-02,Jacket,Denim Jacket - Blue,10,89.99,40.00,18,10
+T-023,2026-05-03,Jacket,Denim Jacket - Blue,5,89.99,40.00,18,10
+T-024,2026-05-04,Jacket,Denim Jacket - Blue,7,89.99,40.00,18,10
+T-025,2026-05-05,Jacket,Denim Jacket - Blue,9,89.99,40.00,18,10
+T-026,2026-05-06,Jacket,Denim Jacket - Blue,6,89.99,40.00,18,10
+T-027,2026-05-07,Jacket,Denim Jacket - Blue,11,89.99,40.00,18,10
+T-028,2026-05-01,Accessories,Baseball Cap - Navy,25,19.99,8.00,60,15
+T-029,2026-05-02,Accessories,Baseball Cap - Navy,22,19.99,8.00,60,15
+T-030,2026-05-03,Accessories,Baseball Cap - Navy,20,19.99,8.00,60,15
+T-031,2026-05-04,Accessories,Baseball Cap - Navy,28,19.99,8.00,60,15
+T-032,2026-05-05,Accessories,Baseball Cap - Navy,30,19.99,8.00,60,15
+T-033,2026-05-06,Accessories,Baseball Cap - Navy,24,19.99,8.00,60,15
+T-034,2026-05-07,Accessories,Baseball Cap - Navy,26,19.99,8.00,60,15

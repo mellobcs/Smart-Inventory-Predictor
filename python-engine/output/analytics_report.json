@@ -1,0 +1,101 @@
+{
+  "source": "SmartInventoryPredictor-PythonEngine",
+  "generatedAt": "2026-05-16T11:48:57.347534",
+  "periodDays": 7,
+  "totalItemsAnalyzed": 7,
+  "criticalAlerts": 7,
+  "warningAlerts": 0,
+  "alerts": [
+    {
+      "itemType": "Accessories",
+      "itemName": "Baseball Cap - Navy",
+      "currentStock": 60,
+      "salesVelocityVm": 25.0,
+      "runOutRateDays": 2.4,
+      "predicted7DayDemand": 175.0,
+      "revenueAtRisk": 3498.25,
+      "recommendedRestockQty": 115,
+      "alertLevel": "CRITICAL_RESTOCK_WARN",
+      "profitMarginPct": 60.0,
+      "generatedAt": "2026-05-16T11:48:55.427443"
+    },
+    {
+      "itemType": "Hoodie",
+      "itemName": "Oversized Hoodie - Black",
+      "currentStock": 12,
+      "salesVelocityVm": 52.57,
+      "runOutRateDays": 0.2,
+      "predicted7DayDemand": 368.0,
+      "revenueAtRisk": 22076.32,
+      "recommendedRestockQty": 356,
+      "alertLevel": "CRITICAL_RESTOCK_WARN",
+      "profitMarginPct": 58.3,
+      "generatedAt": "2026-05-16T11:48:55.427443"
+    },
+    {
+      "itemType": "Jacket",
+      "itemName": "Denim Jacket - Blue",
+      "currentStock": 18,
+      "salesVelocityVm": 8.0,
+      "runOutRateDays": 2.2,
+      "predicted7DayDemand": 56.0,
+      "revenueAtRisk": 5039.44,
+      "recommendedRestockQty": 38,
+      "alertLevel": "CRITICAL_RESTOCK_WARN",
+      "profitMarginPct": 55.6,
+      "generatedAt": "2026-05-16T11:48:55.427443"
+    },
+    {
+      "itemType": "Jeans",
+      "itemName": "Slim Fit Jeans - Blue",
+      "currentStock": 35,
+      "salesVelocityVm": 13.57,
+      "runOutRateDays": 2.6,
+      "predicted7DayDemand": 95.0,
+      "revenueAtRisk": 7599.05,
+      "recommendedRestockQty": 60,
+      "alertLevel": "CRITICAL_RESTOCK_WARN",
+      "profitMarginPct": 56.2,
+      "generatedAt": "2026-05-16T11:48:55.427443"
+    },
+    {
+      "itemType": "Sneakers",
+      "itemName": "Running Sneakers - Grey",
+      "currentStock": 22,
+      "salesVelocityVm": 7.57,
+      "runOutRateDays": 2.9,
+      "predicted7DayDemand": 53.0,
+      "revenueAtRisk": 6889.47,
+      "recommendedRestockQty": 31,
+      "alertLevel": "CRITICAL_RESTOCK_WARN",
+      "profitMarginPct": 50.0,
+      "generatedAt": "2026-05-16T11:48:55.427443"
+    },
+    {
+      "itemType": "T-Shirt",
+      "itemName": "Cotton Crew Neck - White",
+      "currentStock": 50,
+      "salesVelocityVm": 17.86,
+      "runOutRateDays": 2.8,
+      "predicted7DayDemand": 125.0,
+      "revenueAtRisk": 3123.75,
+      "recommendedRestockQty": 75,
+      "alertLevel": "CRITICAL_RESTOCK_WARN",
+      "profitMarginPct": 60.0,
+      "generatedAt": "2026-05-16T11:48:55.427443"
+    },
+    {
+      "itemType": "T-Shirt",
+      "itemName": "Graphic Tee - Red",
+      "currentStock": 40,
+      "salesVelocityVm": 10.43,
+      "runOutRateDays": 3.8,
+      "predicted7DayDemand": 73.0,
+      "revenueAtRisk": 2189.27,
+      "recommendedRestockQty": 33,
+      "alertLevel": "CRITICAL_RESTOCK_WARN",
+      "profitMarginPct": 60.0,
+      "generatedAt": "2026-05-16T11:48:55.427443"
+    }
+  ]
+}
